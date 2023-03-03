@@ -1,35 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background: url(images/background.png);
-    color: #fff;
+    background-color: #fff;
+    color: rgb(20, 66, 65);
+    accent-color: rgb(193, 137, 87);
     font-size: 20px;
-    margin: 10%;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     position: relative;
 }
 
-header, footer {
+#container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#flex-div {
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer, h1 {
     text-align: center;
-    text-transform: uppercase;
-    margin-top: 24px;
+    text-transform: capitalize;
+    padding: 2%;
+    color: #fff;
+    background-color: rgb(20, 66, 65);
 }
 
 nav {
     display: flex;
-    flex-direction: column;
-    margin-right: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    justify-content: space-between;
+    margin: 24px;
 }
 
 nav a {
     text-decoration: none;
-    margin-bottom: 16px;
-    color: #fff;
+    color: rgb(20, 66, 65);
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    color: rgb(193, 137, 87);
+    text-shadow: rgb(20, 66, 65) 1px 1px;
 }
 
 main {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    margin: 24px;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: rgb(193, 137, 87);
+    font-size: 28px;
+}
+
+.suggestions a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(20, 66, 65);
+    text-shadow: rgb(193, 137, 87) 1px 1px;
+}
+
+.suggestions a:hover {
+    color: blue;
+    text-shadow: rgb(193, 137, 87) 1px 1px;
 }

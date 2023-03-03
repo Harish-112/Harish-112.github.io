@@ -9,23 +9,52 @@
 </head>
 
 <body>
-    <header>
-        <h1>harish's not so secret website.</h1>
-    </header>
-    <main>
-        <nav>
-            <a href="#"><strong>home</strong></a>
-            <a href="blog.html"><strong>blog</strong></a>
-            <a href="projects.html"><strong>projects</strong></a>
-            <a href="about.html"><strong>about</strong></a>
-            <a href="contact.html"><strong>contact</strong></a>
-        </nav>
-        <article>
-            <p>sample paragraph.</p>
-        </article>
-    </main>
-    <img src="images/under_construction_animated.gif" alt="under construction animation">
-    <footer>&copy; All Rights Not Reserved. 2023.</footer>
+    <div id="container">
+        <header>
+            <h1 id="top">harish's not so secret website.</h1>
+        </header>
+        <div id="flex-div">
+            <nav id="menu">
+                <a href="#top"><strong>home</strong></a>
+                <a href="blog.html"><strong>blog</strong></a>
+                <a href="#work-title"><strong>projects</strong></a>
+                <a href="about.html"><strong>about</strong></a>
+                <a href="contact.html"><strong>contact</strong></a>
+            </nav>
+            <main>
+                <section>
+                    <p>Hi, I'm Harish.</p>
+                    <p>This is the site where I put my thoughts and random stuffs out to the world.</p>
+                    <p>When I heard about the Internet back in the days, it was a wonderful place to explore, have fun
+                        and
+                        creative. But recently it became the place where I get affirmation to whatever I chose to
+                        believe.
+                    </p>
+                </section>
+                <section class="interests">
+                    <h2 id="interests-heading">My Interests</h2>
+                    <ul>
+                        <li>Data Science</li>
+                        <li>Building Websites</li>
+                        <li>Lots of Reading.</li>
+                    </ul>
+                </section>
+                <section class="likes">
+                    <h2 id="likes-heading">I really like to...</h2>
+                    <ul>
+                        <li>This maybe weird but I love to listen to other people's stories. Because those stories motivate me to do something.</li>
+                        <li>stay at home (well most of the times but circumstances makes me to go out).</li>
+                    </ul>
+                </section>
+                <section class="suggestions">
+                    <h2>Suggestions?</h2>
+                    <p><a href="suggestions-form/form-page.html">Click here.</a></p>
+                </section>
+            </main>
+        </div>
+        <!-- <img src="images/under_construction_animated.gif" alt="under construction animation"> -->
+        <footer>&copy; All Rights Not Reserved. 2023.</footer>
+    </div>
 </body>
 
 </html>

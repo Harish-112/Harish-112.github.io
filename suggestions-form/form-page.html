@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fcc-form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html"><h1 id="top">harish's not so secret website.</h1></a>
+        </header>
+        <nav id="menu">
+            <a href="../index.html"><strong>home</strong></a>
+            <a href="blog.html"><strong>blog</strong></a>
+            <a href="#work-title"><strong>projects</strong></a>
+            <a href="about.html"><strong>about</strong></a>
+            <a href="contact.html"><strong>contact</strong></a>
+        </nav>
+        <form id="suggestion-form" action="">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+            </div>
+            <!-- <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"
+                    required />
+            </div> -->
+            <div class="form-group">
+                <p>Which beverage do you prefer?</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                        checked />Coffee</label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Tea</label>
+
+                <label><input name="user-recommend" value="not-both" type="radio" class="input-radio" />Not interested
+                    in both</label>
+                    <label><input name="user-recommend" value="both" type="radio" class="input-radio" />Interested
+                        in both</label>
+                    </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter your additional comments here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <footer>&copy;Harish, 2023</footer>
+    </div>
+</body>
+
+</html>
