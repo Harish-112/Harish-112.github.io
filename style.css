@@ -82,7 +82,7 @@ h2 {
     color: blueviolet;
 }
 
-main section {
+.project {
     width: 800px;
     background-color: white;
     color: rgb(20, 66, 65);
@@ -91,7 +91,7 @@ main section {
     border-radius: 24px;
 }
 
-main img {
+.project img{
     border: #fff solid 1px;
     border-radius: 24px;
 }
