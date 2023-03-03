@@ -81,3 +81,32 @@ h2 {
 .active-nav {
     color: blueviolet;
 }
+
+main section {
+    width: 800px;
+    background-color: white;
+    color: rgb(20, 66, 65);
+    padding: 24px;
+    border: #fff solid 1px;
+    border-radius: 24px;
+}
+
+main img {
+    border: #fff solid 1px;
+    border-radius: 24px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(193, 137, 87);
+    text-shadow: rgba(20, 66, 65, 0.75) 1px 1px;
+}
+
+p {
+    padding: 24px;
+}
+
+main span {
+    color: rgb(193, 137, 87);
+}
