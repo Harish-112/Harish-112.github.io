@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-color: #fff;
-    color: rgb(20, 66, 65);
+    /* background-color: #fff; */
+    /* color: rgb(20, 66, 65); */
+    background-color: rgb(20, 66, 65);
+    color: white;
     accent-color: rgb(193, 137, 87);
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -34,14 +36,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fff;
-    justify-content: space-between;
     margin: 24px;
 }
 
 nav a {
     text-decoration: none;
-    color: rgb(20, 66, 65);
+    color: white;
     text-transform: capitalize;
 }
 
@@ -69,11 +69,15 @@ h2 {
 .suggestions a {
     text-decoration: none;
     text-transform: capitalize;
-    color: rgb(20, 66, 65);
+    color: white;
     text-shadow: rgb(193, 137, 87) 1px 1px;
 }
 
 .suggestions a:hover {
     color: blue;
     text-shadow: rgb(193, 137, 87) 1px 1px;
+}
+
+.active-nav {
+    color: blueviolet;
 }
